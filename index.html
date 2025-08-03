@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yasser Haidar Abdulaziz | Web Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <header class="bg-white shadow-sm">
+      <nav class="container mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+          <a href="#" class="text-2xl font-bold text-gray-800">YH</a>
+          <div class="space-x-6">
+            <a href="#about" class="text-gray-600 hover:text-gray-900">About</a>
+            <a href="#projects" class="text-gray-600 hover:text-gray-900"
+              >Projects</a
+            >
+            <a href="#contact" class="text-gray-600 hover:text-gray-900"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+          <h1 class="text-4xl md:text-6xl font-bold mb-4 text-gray-900">
+            Yasser Haidar Abdulaziz
+          </h1>
+          <p class="text-xl mb-8 text-gray-600">Web Developer & Designer</p>
+          <a
+            href="#contact"
+            class="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition duration-300"
+            >Get in Touch</a
+          >
+        </div>
+      </section>
+
+      <section id="about" class="py-20">
+        <div class="container mx-auto px-6">
+          <h2 class="text-3xl font-bold mb-8 text-center text-gray-900">
+            About Me
+          </h2>
+          <div class="max-w-2xl mx-auto text-center">
+            <p class="text-lg mb-6 text-gray-700">
+              I'm a passionate web developer with a keen eye for design and a
+              love for clean, efficient code. I specialize in creating
+              responsive and user-friendly websites that deliver exceptional
+              user experiences.
+            </p>
+            <p class="text-lg mb-6 text-gray-700">
+              With expertise in both front-end and back-end technologies, I
+              bring ideas to life through innovative web solutions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+          <h2 class="text-3xl font-bold mb-8 text-center text-gray-900">
+            Featured Projects
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-gray-100 rounded-lg overflow-hidden">
+              <img
+                src="https://via.placeholder.com/600x400"
+                alt="Project 1"
+                class="w-full h-64 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">Project 1</h3>
+                <p class="text-gray-700 mb-4">
+                  Coming Soon!
+                </p>
+                <a href="#" class="text-blue-500 hover:underline"
+                  >View Project</a
+                >
+              </div>
+            </div>
+            <div class="bg-gray-100 rounded-lg overflow-hidden">
+              <img
+                src="https://via.placeholder.com/600x400"
+                alt="Project 2"
+                class="w-full h-64 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">Project 2</h3>
+                <p class="text-gray-700 mb-4">
+                  Coming Soon!
+                </p>
+                <a href="#" class="text-blue-500 hover:underline"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-20">
+        <div class="container mx-auto px-6">
+          <h2 class="text-3xl font-bold mb-8 text-center text-gray-900">
+            Get in Touch 
+            (Coming Soon!)
+          </h2>
+          <form class="max-w-lg mx-auto">
+            <div class="mb-4">
+              <label for="name" class="block text-gray-700 font-semibold mb-2"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 font-semibold mb-2"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label
+                for="message"
+                class="block text-gray-700 font-semibold mb-2"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition duration-300"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8">
+      <div class="container mx-auto px-6 text-center">
+        <p>&copy; 2023 Yasser Haidar Abdulaziz. All rights reserved.</p>
+        <div class="mt-4">
+          <a href="#" class="text-gray-400 hover:text-white mx-2">GitHub</a>
+          <a href="#" class="text-gray-400 hover:text-white mx-2">LinkedIn</a>
+          <a href="#" class="text-gray-400 hover:text-white mx-2">Twitter</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
